@@ -39,7 +39,7 @@ void Long()
     digitalWrite(led1, LOW);
     digitalWrite(led2, LOW);
 
-  // Wait 1 second...
+  // Wait 1/2 second...
     delay(500);
 
   // And repeat!
@@ -50,14 +50,14 @@ void Short()
     digitalWrite(led1, HIGH);
     digitalWrite(led2, HIGH);
 
-  // We'll leave it on for 1 second...
+  // We'll leave it on for 1/2 second...
     delay(500);
 
   // Then we'll turn it off...
     digitalWrite(led1, LOW);
     digitalWrite(led2, LOW);
 
-  // Wait 1 second...
+  // Wait 1/2 second...
     delay(500);
 
   // And repeat!
